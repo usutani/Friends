@@ -14,19 +14,23 @@
 		977A1123138800FF005D06C7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 977A1121138800FF005D06C7 /* MainMenu.xib */; };
 		977A1126138800FF005D06C7 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 977A1125138800FF005D06C7 /* rb_main.rb */; };
 		977A1128138800FF005D06C7 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 977A1127138800FF005D06C7 /* AppDelegate.rb */; };
+		977A113213880165005D06C7 /* controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 977A113113880165005D06C7 /* controller.rb */; };
+		977A113413880198005D06C7 /* friend.rb in Resources */ = {isa = PBXBuildFile; fileRef = 977A113313880198005D06C7 /* friend.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		977A110E138800FF005D06C7 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		977A1112138800FF005D06C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		977A1114138800FF005D06C7 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		977A1119138800FF005D06C7 /* Friends-Info.plist */ = {isa = PBXFileReference; path = "Friends-Info.plist"; sourceTree = "<group>"; };
+		977A1119138800FF005D06C7 /* Friends-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Friends-Info.plist"; sourceTree = "<group>"; };
 		977A111B138800FF005D06C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		977A111D138800FF005D06C7 /* Friends-Prefix.pch */ = {isa = PBXFileReference; path = "Friends-Prefix.pch"; sourceTree = "<group>"; };
+		977A111D138800FF005D06C7 /* Friends-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Friends-Prefix.pch"; sourceTree = "<group>"; };
 		977A111E138800FF005D06C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		977A1122138800FF005D06C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		977A1125138800FF005D06C7 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		977A1127138800FF005D06C7 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		977A113113880165005D06C7 /* controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = controller.rb; sourceTree = "<group>"; };
+		977A113313880198005D06C7 /* friend.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = friend.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				977A1120138800FF005D06C7 /* Resources */,
 				977A1124138800FF005D06C7 /* Other Sources */,
 				977A1118138800FF005D06C7 /* Supporting Files */,
+				977A113113880165005D06C7 /* controller.rb */,
+				977A113313880198005D06C7 /* friend.rb */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 				977A1123138800FF005D06C7 /* MainMenu.xib in Resources */,
 				977A1126138800FF005D06C7 /* rb_main.rb in Resources */,
 				977A1128138800FF005D06C7 /* AppDelegate.rb in Resources */,
+				977A113213880165005D06C7 /* controller.rb in Resources */,
+				977A113413880198005D06C7 /* friend.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				977A112D138800FF005D06C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		977A112E138800FF005D06C7 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -316,6 +325,7 @@
 				977A1130138800FF005D06C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

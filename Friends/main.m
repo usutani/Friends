@@ -3,7 +3,7 @@
 //  Friends
 //
 //  Created by Yasuhiro Usutani on 5/21/11.
-//  Copyright 2011 TGL Inc. All rights reserved.
+//  Copyright 2011 XCC. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

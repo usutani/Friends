@@ -3,7 +3,7 @@
 #  Friends
 #
 #  Created by Yasuhiro Usutani on 5/21/11.
-#  Copyright (c) 2011 TGL Inc. All rights reserved.
+#  Copyright (c) 2011 XCC. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can
